@@ -89,7 +89,7 @@ a{
     text-align: center;
     margin: auto;
     width: auto;
-    height: 145px;
+    height: 100%;
     padding: 10px;
     display: flex;
     -webkit-box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.75);
