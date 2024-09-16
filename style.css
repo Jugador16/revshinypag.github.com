@@ -81,6 +81,24 @@ a{
     margin: 40px 20px;
     flex-direction: column;
     align-items: center;
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+    animation-timeline: --image;
+    animation-name: show;
+    animation-range: entry 25% cover 44%;
+    animation-fill-mode: both;
+}
+
+@keyframes show {
+    from{
+        opacity: 0;
+        scale: 25%;
+    }
+
+    to{
+        opacity: 1;
+        scale: 100%;
+    }
 }
 
 .red{
@@ -191,7 +209,7 @@ a:active{
 }
 
 
-@media (min-width:650px){
+@media (min-width:690px){
     body{
         margin: 30px 11%;
         border-radius: 5px;
@@ -273,6 +291,11 @@ a:active{
         place-content: center;
         flex-wrap: wrap;
         margin: 5px 80px;
+    }
+
+    .CartaRedes{
+        view-timeline: none;
+        animation: none;
     }
 
     .red{
