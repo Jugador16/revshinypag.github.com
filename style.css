@@ -294,9 +294,9 @@ a:active{
 
     .red{
         margin: 10px;
-        width: 190px;
-        height: 220px;
-        padding: 4px 8px;
+        width: 130px;
+        height: autopx;
+        padding: 6px 9px;
         border-radius: 2px;
         display: grid;
         align-content: space-around;
