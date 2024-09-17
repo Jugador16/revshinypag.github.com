@@ -295,7 +295,7 @@ a:active{
     .red{
         margin: 10px;
         width: 130px;
-        height: autopx;
+        height: auto;
         padding: 6px 9px;
         border-radius: 2px;
         display: grid;
