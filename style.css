@@ -74,11 +74,12 @@ a{
 
 .medio{
     background-color: white;
+    scale: 0.91;
 }
 
 .CartaRedes{
     display: flex;
-    margin: 40px 20px;
+    margin: 70px 20px;
     flex-direction: column;
     align-items: center;
     view-timeline-name: --image;
@@ -145,7 +146,7 @@ a:active{
 }
 
 .calendar {
-    width: 90%;
+    width: 93%;
     margin: 60px auto 30px auto;
     border: 1px solid #000000;
     background-color: #fff;
@@ -290,6 +291,7 @@ a:active{
         place-content: center;
         flex-wrap: wrap;
         margin: 5px 80px;
+        scale: 1;
     }
 
     .CartaRedes{
