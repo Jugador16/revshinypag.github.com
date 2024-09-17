@@ -282,7 +282,6 @@ a:active{
     .medio{
         display: flex;
         place-content: center;
-        flex-wrap: wrap;
         margin: 5px 80px;
         scale: 1;
     }
@@ -294,9 +293,9 @@ a:active{
 
     .red{
         margin: 10px;
-        width: 130px;
+        width: 85px;
         height: auto;
-        padding: 6px 9px;
+        padding: 7px 12px;
         border-radius: 2px;
         display: grid;
         align-content: space-around;
