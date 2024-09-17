@@ -121,22 +121,6 @@ a{
     transform: scale(1.05);
 }
 
-#cajauno{
-    width: 271px;
-}
-
-#cajados{
-    width: 271px;
-}
-
-#uno {
-    margin: 15px 0;  
-}
-
-#dos {
-    margin: 15px 0;  
-}
-
 a:active{
     scale: 0.95;
 }
@@ -325,22 +309,6 @@ a:active{
 
     .calendar-header h2 {
         font-size: 18px;
-    }
-
-    #cajauno{
-        width: auto;
-    }
-    
-    #cajados{
-        width: auto;
-    }
-    
-    #uno {
-      margin: 0 0 140px 0;  
-    }
-
-    #dos {
-      margin: 0 0 140px 0;  
     }
 
     a{
