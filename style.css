@@ -1,3 +1,4 @@
+
 body{
     margin: 0px;
     padding: 0px;
@@ -118,6 +119,14 @@ a{
 
 .red:hover{
     transform: scale(1.05);
+}
+
+#cajauno{
+    width: 271px;
+}
+
+#cajados{
+    width: 271px;
 }
 
 #uno {
@@ -316,6 +325,14 @@ a:active{
 
     .calendar-header h2 {
         font-size: 18px;
+    }
+
+    #cajauno{
+        width: auto;
+    }
+    
+    #cajados{
+        width: auto;
     }
     
     #uno {
